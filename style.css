@@ -11,7 +11,7 @@ body {
     text-align: center;
     min-height: 100vh;
     max-width: 100%;
-    background: linear-gradient(180deg, rgba(255,231,0,1) 0%, rgba(2,220,255,1) 4%, rgba(2,220,255,1) 69%, rgba(0,255,128,1) 97%);
+    background: linear-gradient(180deg, rgba(255, 231, 0, 1) 0%, rgba(2, 220, 255, 1) 4%, rgba(2, 220, 255, 1) 69%, rgba(0, 255, 128, 1) 97%);
 }
 
 .titulo {
@@ -36,10 +36,7 @@ main {
 .pokemon_rg h3 {
     display: inline-block;
     font-size: clamp(10px, 10vw, 15px);
-    justify-content: right;   
-    
-
-
+    justify-content: right;
 }
 
 .pokemon_image {
@@ -52,7 +49,7 @@ main {
 .UI {
     position: absolute;
     bottom: 10%;
-    left: 7%;    
+    left: 7%;
 }
 
 .UI input {
