@@ -34,9 +34,10 @@ main {
 }
 
 .pokemon_rg h3 {
-    display: inline;
-    font-size: clamp(15px, 10vw, 20px);
-    justify-content: right;
+    display: inline-block;
+    font-size: clamp(10px, 10vw, 15px);
+    justify-content: right;   
+    
 
 
 }
