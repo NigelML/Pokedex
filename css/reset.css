@@ -1,0 +1,64 @@
+/* Reset styles */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, input, textarea, select {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  
+  /* block elements */
+  article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+  }
+  
+  /* inline elements */
+  a, abbr, acronym, b, bdo, big, br, cite, code, dfn, em, i, img, input, kbd, label, map, object, output, q, samp, small, span, strong, sub, sup, textarea, time, tt, var {
+    display: inline;
+    vertical-align: baseline;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    line-height: inherit;
+  }
+  
+  /* specific styles */
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  caption, th, td {
+    text-align: left;
+    font-weight: normal;
+    vertical-align: middle;
+  }
+  
+  q:before, q:after {
+    content: "";
+  }
+  
+  a, ins {
+    text-decoration: none;
+  }
+  
+  /* other styles */
+  :focus {
+    outline: 0;
+  }
+  
+  hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+  }
+  
+  /*Adds "hidden" functionality*/
+  .hidden {
+    display: none !important;
+  }
+  

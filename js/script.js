@@ -33,7 +33,7 @@ const renderPokemon = async (pokemon) => {
     input.value = '';
     currentPokemonID = data.id;
   } else {
-    pokemonImage.style.display = 'none';
+    pokemonImage.src = "../images/pokebola-gif.gif"
     pokemonName.innerHTML = 'Not found';
     pokemonNumber.innerHTML = '';
   }

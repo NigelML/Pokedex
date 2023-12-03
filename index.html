@@ -4,10 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
     <link rel="shortcut icon" href="images/favicons/favicon-16x16.png" type="image/x-icon">
     <title>Pokédex</title>
-
 </head>
 
 <body>
@@ -15,33 +16,33 @@
         Pokédex
     </h1>
     <main>
-        <section class="pokemon_rg">
+        <div class="pokedex">
+            <section class="pokemon_rg">
+                <figure>
+                    <img src=""
+                        class="pokemon_image" alt="pokemon_image">
+                </figure>
 
-            <figure>
-                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/3.gif"
-                    class="pokemon_image" alt="pokemon_image">
-            </figure>
+                <h3>
+                    <span id="pokemon_id">3</span>
+                    <span id="pokemon_nome">Venusaur</span>
+                </h3>
+            </section>
 
-            <h3>
-                <span id="pokemon_id">3</span>
-                <span id="pokemon_nome">Venusaur</span>
-            </h3>
-        </section>
+            <section class="UI">
+                <form class="form">
+                    <input type="search" class="input_search" placeholder="Name or Number" required />
+                </form>
 
-        <section class="UI">
-            <form class="form">
-                <input type="search" class="input_search" placeholder="Name or Number" required />
-            </form>
+                <div class="buttons">
+                    <button class="button btn-prev">Prev &lt;</button>
+                    <button class="button btn-next">Next &gt;</button>
+                </div>
+            </section>          
+        </div>
 
-            <div class="buttons">
-                <button class="button btn-prev">Prev &lt;</button>
-                <button class="button btn-next">Next &gt;</button>
-            </div>
-        </section>
-
-        <img src="images/pokedex.png" class="img_pokedex" alt="Pokédex">
     </main>
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
